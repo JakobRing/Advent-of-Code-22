@@ -19,4 +19,5 @@ if __name__ == "__main__":
             nextline = next(f)
         except StopIteration:
             break
+    f.close()
     print(f"The sum of the priorities is {priority_sum}")

@@ -13,4 +13,5 @@ if __name__ == "__main__":
             priority_sum += ascii_value - 96
         else:
             raise Exception("No letter in the Input")
+    f.close()
     print(f"The sum of the priorities is {priority_sum}")
